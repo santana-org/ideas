@@ -1,0 +1,46 @@
+# 📊 Kommo-o - Data Format Converter CLI
+
+Convert between JSON, YAML, TOML, CSV, XML instantly.
+
+## 🧠 Problem
+
+**This project solves:**
+- Config files in different formats everywhere
+- Manual copying/pasting to online converters
+- No command-line tool that handles all formats
+- Data migration between tools requires manual work
+
+## 💡 Features
+
+**List the main capabilities:**
+- Convert between all popular formats
+- Validate syntax
+- Pretty-print with indentation
+- Extract paths with dot notation (`data.users[0].name`)
+- Merge multiple files
+- Command piping (stdin/stdout)
+- Quiet mode for scripts
+
+## 🧩 Advanced Features
+
+- Environment variable substitution
+- Template rendering
+- Diff between versions
+- Validation against schemas
+
+## 🧭 Roadmap
+
+**V1 (MVP):**
+- JSON, YAML, TOML, CSV conversion
+- Validation
+- Pretty printing
+
+**V2:**
+- Path extraction
+- Merging files
+- Environment vars
+
+**V3:**
+- Schema validation
+- Template rendering
+- Diff tool
